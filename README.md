@@ -10,7 +10,7 @@ This program is meant to calculate the specific concepts Ranked Retrieval, Featu
 and Probabilisiic Models. In order to complete this, I would run everything on the a3_solution.py file, but in order to 
 organize the tasks more efficently, I would store helper functions as Q1, Q2, Q3, Q4, and Q5 in seperate files to make the calulculations easier to perform.
 
-## Summarization of each file
+## Summarization of each helper function of a3_solutions.py
 # Question 1 
 The Q1.py file can be ran through a function called Q1_main and this function can be found in a3_solutions.py. It's called first, before the other helper functions,
 and performs calculations and other commands asked from the Question requirements.
