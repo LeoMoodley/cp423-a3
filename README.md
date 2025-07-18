@@ -52,3 +52,8 @@ MRR's strength is in reflecting how quickly a user finds a useful result, which 
 
 Therefore, while all metrics offer insight, MRR is the most intuitive and user-aligned for single-page, top-10 ranked search interfaces.
 
+## How to Run the Program
+- Go to a3_solutions.py
+- Run the file
+- The file automatically runs all the helper functions, so you are done!
+
