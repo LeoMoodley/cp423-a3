@@ -44,13 +44,13 @@ Second, both models assume term independence, but BM25 assigns diminishing retur
 Overall, BM25’s empirical success and theoretical refinements make it more suited to ranking tasks in heterogeneous document collections compared to the stricter probabilistic assumptions used in the Dirichlet model.
 
 # Question 6 Reflection
-For a search engine that presents 10 organic results per page, Mean Reciprocal Rank (MRR) best captures user satisfaction. MRR focuses on the rank position of the first relevant result, which directly reflects a common user behavior: clicking the first satisfactory link and stopping their search. Most users rarely scroll past the top few results, especially if the first answer meets their intent. Thus, MRR aligns closely with the real-world impact of search ranking on user experience.
+For finding a search engine presenting 10 organic results per page, Mean Reciprocal Rank (MRR) best captures user satisfaction. MRR specializes on the rank position for the first relevant result, which directly reflects a common user behavior: clicking the first satisfactory link and stopping their search. Most users rarely scroll past the top few results. Thus, MRR aligns closely with the real-world impact of search ranking on user experience.
 
-Although Precision@10 (P@10) seems appropriate due to the 10-result layout, it treats all positions equally and doesn’t reward highly ranked relevant documents over lower-ranked ones. Similarly, nDCG@10 captures graded relevance and position, but it assumes users examine multiple results and benefit from multiple relevant documents—an assumption that doesn’t always hold for navigational or specific informational queries.
+Although Precision@10 (P@10) seems like the best due to the 10-result layout, it treats all positions equally and doesn’t reward highly ranked relevant documents over lower-ranked ones. Also, nDCG@10 captures graded relevance and position, but it assumes users examine multiple results and benefit from multiple relevant documents—an assumption that doesn’t always hold for navigational or specific informational queries.
 
 MRR's strength is in reflecting how quickly a user finds a useful result, which is often the primary driver of satisfaction. If a relevant link appears first, the user experiences minimal effort and high satisfaction. This makes MRR particularly valuable for search engines aimed at quick answer delivery.
 
-Therefore, while all metrics offer insight, MRR is the most intuitive and user-aligned for single-page, top-10 ranked search interfaces.
+Thus, while all metrics offer insight, MRR is the most intuitive and user-aligned for single-page, top-10 ranked search interfaces.
 
 ## How to Run the Program
 - Go to a3_solutions.py
